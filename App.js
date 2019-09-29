@@ -4,7 +4,7 @@ import ImageList from './src/screens/ImageList'
 import {createAppContainer} from 'react-navigation'
 import {createDrawerNavigator} from 'react-navigation-drawer'
 
-const MyDrawerNavigator = createDrawerNavigator({
+const DrawerNavigator = createDrawerNavigator({
     ImageList: {
         screen: ImageList
     }, 
@@ -17,4 +17,4 @@ const MyDrawerNavigator = createDrawerNavigator({
   }
 );
   
-export default createAppContainer(MyDrawerNavigator);
+export default createAppContainer(DrawerNavigator);
